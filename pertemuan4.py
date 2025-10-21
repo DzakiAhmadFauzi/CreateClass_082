@@ -13,3 +13,8 @@ class PersegiPanjang:
         return f"Persegi Panjang, Panjang [self.panjang] cm, dan lebar {self.lebar} cm"
 
 
+try:
+    panjang_input = int(input("Masukkan panjang (cm):"))
+    lebar_input = int(input("Masukkan lebar (cm):"))
+
+    
